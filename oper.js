@@ -5,8 +5,6 @@ const form = [
   Number(prompt('Ваш возраст:').trim()),
   confirm('Ваш пол: если Мужской(ОК) \ если Женский(ОТМЕНА):') ];
 
-if (form[4]) form[4] = 'мужской'; else form[4] = 'женский';
-if ((form[3] >= 65 )) form.push('да'); else form.push('нет');
 
 alert('ФИО: ' + form[0] + ' ' + form[1] + ' ' + form[2] + '\n' +
             'Ваш полный возраст в годах: ' + form[3] + '\n' +
